@@ -1,4 +1,4 @@
-loris.github.io
+aces.github.io/MCIN_platforms
 ===============
 
-General LORIS presentation
+Information about MCIN platforms and Projects
