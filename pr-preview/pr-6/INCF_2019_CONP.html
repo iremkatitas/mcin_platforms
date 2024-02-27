@@ -1,0 +1,431 @@
+<!doctype html>
+<html lang="en">
+ 
+  <head>
+    <meta charset="utf-8">
+    
+    <title>Open Neuroscience</title>
+
+    <!-- The important Javascript libraries -->
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/black.css" id="theme">
+    
+    <!-- Code syntax highlighting -->
+    <link rel="stylesheet" href="lib/css/zenburn.css">
+    
+    <!-- Printing and PDF exports -->
+    <script>
+      var link = document.createElement( 'link' );
+      link.rel = 'stylesheet';
+      link.type = 'text/css';
+      link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+      document.getElementsByTagName( 'head' )[0].appendChild( link );
+    </script>
+    
+    <!--[if lt IE 9]>
+      <script src="lib/js/html5shiv.js"></script>
+      <![endif]-->
+  </head>
+  
+  <body>
+    <div class="reveal">
+      
+    <!-- Any section element inside of this container is displayed as a slide -->
+    <div class="slides">
+      
+	  
+	  <section data-background="images/IBIS_image.png">
+	    
+	    <h1 style="text-shadow:-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000;">CONP</h1>
+		
+	    <h4 style="padding-bottom:0px; margin-bottom:0px;text-shadow:-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000;" align="center">Dissemination of FAIR Datasets and Analysis Pipelines Using the Canadian Open Neuroscience Platform (CONP)</h4>
+
+	    <!--ENTER DATE OF PRESENTATION HERE-->
+            <p style="text-shadow:-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000;"><small>September 1, 2019</small></p>
+            <p style="text-shadow:-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000;"><small>Samir Das<br>Associate Director of Technology</small></p>
+	    <p style="text-shadow:-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000;"><small><b>McGill Centre for Integrative Neuroscience</b><br><b>Montreal Neurological Institute</b></small></p> 
+	
+	    <table class="reveal">
+              <tr>
+	        <td width="40%" style="vertical-align: middle">
+		  <a href="https://mcin-cnim.ca/" target="_blank"><img src="images/MCIN.png" style="border: 0"></a>
+		</td>
+                <td width="15%" style="vertical-align: middle">
+		  <a href="http://www.mcgill.ca/neuro/" target="_blank"><img src="images/Neuro.png" style="border: 0"></a>
+		</td>
+		<td width="35%" style="vertical-align: middle">
+		  <a href="http://ludmercentre.ca/" target="_blank"><img src="images/ludmer-new-white.png" style="border: 0"></a>
+		</td>
+	      </tr>
+	    </table>
+	  </section>  
+
+	  <!-- PREAMBLE -->
+	<section data-transition="fade">
+	  
+	  <section>		
+	    <h2>A little preamble...</h2>
+	  </section>
+	  
+	  <section>
+	    <h2>Dark data</h2>
+	    <img src="images/Dark_data.png">
+	    <p><small>McLeod et al., Lancet, 2014 Ferguson et al., 2014, Nature Neuroscience</small></p>
+	  </section>
+
+	  <section data-background="images/CONP.png" data-background-size="100%">
+	    <p class="fragment current-visible"><font size="9" color="black">$11 million Brain Canada grant</font></p>
+	    <p class="fragment current-visible"><font size="9" color="black">3 year mission starting in 2018</font></p>
+	    <p class="fragment current-visible"><font size="9" color="black">Our goal...</font></p>
+	    <p class="fragment current-visible"><font size="9" color="black">Share data!</font></p>
+	  </section>
+ 
+	  <!-- Principles -->
+	  <section>
+	    <img src="images/FAIR.png">
+	  </section>
+
+	  <section data-transition="slide" data-background="#87CEEB" data-background-transition="zoom">
+	    <table class="reveal">
+	      <tr>
+              	<td width="55%" style="vertical-align: top">
+                  <img src="images//COBIDAS_Nature_new.png">
+                </td>
+                <td width="45%" style="vertical-align: middle">
+                  <img src="images/INCF_SBP.png">
+                </td>
+	      </tr>
+	    </table>
+          </section>
+	  
+	</section>
+	
+	
+	<!-- THE PLAN -->
+	<section data-transition="fade">
+	  
+	  <section>
+	       <h2>The Plan</h2>
+	    <img src="images/CONP_plan.png" width="77%">
+	  </section>
+
+	  <!-- How not to share data -->
+	  <section>
+	    <img src="images/Data_sharing_cartoon.png">
+	  </section>
+
+	  <!-- Infrastructure -->
+	  <section>
+	    <img src="images/CONP_architecture.png">
+	  </section>
+
+	  <!-- CONP Stack -->
+	  <section>
+	    <h2>CONP technology stack</h2>		    
+	    <img src="images/CONP_stack.png">
+	  </section>
+
+	  <!-- DATS Model -->
+	  <section data-background-transition="zoom">
+	    <h2>DATS model</h2>
+	    <img src="images/DATS.png">
+	  </section>
+
+	   <!-- Ethics -->
+	   <section data-transition="fade">	
+	      <h2>Ethics and data sharing</h2>
+	      <table class="reveal">
+		<tr>
+		  <td width="33%" style="vertical-align: middle">
+		    <img src="images/Data_Use_agreement.png"> 
+		  </td>
+		  
+		  <td width="33%" style="vertical-align: middle">
+		    <img src="images/Registered_access.png"> 
+		  </td>
+		  
+		  <td width="33%" style="vertical-align: middle">
+		    <img src="images/Open_science.png"> 
+		  </td>
+		</tr>
+		<tr>
+		  <td width="33%" style="vertical-align: middle">
+		    <h4>Data Use Agreements</h4>
+		  </td>
+		  <td width="33%" style="vertical-align: middle">
+		    <h4>Registered Access</h4>
+		  </td>
+		  <td width="33%" style="vertical-align: middle">
+		    <h4>Open Access</h4>
+		  </td>
+		</tr>
+		
+	      </table>	
+	    </section>
+	  
+	  <!-- GAP -->
+	  <section>
+	    <h2>GAP analysis</h2>
+	    <p class="fragment fade-in-then-semi-out"><font size="9" color="blue">Datasets are...</font></p>
+	    <p class="fragment fade-in-then-semi-out"><font size="9" color="yellow">- hard to find - and access!</font></p>
+	    <p class="fragment fade-in-then-semi-out"><font size="9" color="yellow">- not generally open.</font></p>
+	    <p class="fragment fade-in-then-semi-out"><font size="9" color="yellow">- not well documented or standardized.</font></p>
+	    <p class="fragment fade-in-then-semi-out"><font size="9" color="yellow">- still difficult for researchers to share.</font></p>
+	    <p class="fragment fade-in-then-semi-out"><font size="9" color="yellow">- are not persistent.</font></p>
+	    <p class="fragment fade-in-then-semi-out"><font size="9" color="yellow">- not reproducible.</font></p>
+	  </section>
+
+	  <!-- Building Principles -->
+	  <section>
+	    <h2>Building Principles</h2>
+	    <p>Data are distributed.</p>
+	    <p>Governance is distributed.</p>
+	    <p>Portal will provide direct access to metadata.</p>
+	    <p>Metadata exist both at the dataset and file levels.</p>
+	    <p>Data and tools are versioned (with integrity checking).</p>
+	    <p>Privacy regulations are fully respected!</p>	    
+	    <p>Hybrid model of UI tools and programmatic access (API).</p>
+	  </section>
+	  
+	  <!-- Working Groups
+	  <section>
+	    <h2>Working Groups</h2>
+	    <p>Central Services (Moyez Dharsee et al.)</p>
+	    <p>Computations (Tristan Glatard, Shawn Brown et al.)</p>
+	    <p>Data transfer (Samir Das, Ali Khan et al.)</p>
+	    <p>Metadata (JB Poline, Tom Gee, M. Legault et al.)</p>
+	  </section> -->
+	  	  
+	</section>
+
+	<!-- THE DATA -->
+	<section data-transition="fade">
+	  
+	  <section>		
+	    <h2>The Data</h2>
+	  </section>
+	  
+	  <!-- All the data in CONP -->
+	  <section>
+	    <img src="images/CONP_data.png">
+	  </section>
+	  
+	  <!-- Prevent AD -->
+	  <section>
+	    <a href="https://openpreventad.loris.ca" target="_blank"><img src="images/Open_PreventAD_LORIS.png"></a>
+	  </section>
+	  
+	  <!-- Git PreventAD
+	  <section>
+	    <img src="images/CONP_PreventAD.png">
+	  </section> -->
+	  
+	  <!-- SIMON data -->
+	  <section data-transition="zoom">	
+	    <img src="images/SIMON_data.png">
+	  </section>
+	  
+	  <!-- Phantom -->
+	  <section>
+	    <img src="images/Phantom.png">
+	  </section>
+	  
+	  <!-- BIG BRAIN -->
+	      <section data-background-video="images/Bigbrain_low.mp4" data-background-color="#000000">
+              <table class="reveal">
+		<a href="Big_brain.html#/2" target="_blank"><h2><font color="black">BigBrain</h2></font></a>
+		<tr>
+              	  <td width="50%" style="vertical-align: middle">
+		    <p align="center"><small><font color="blue">The BigBrain is the 1 TeraByte digitized reconstruction of 7404 hi-res coronal histological sections (20 microns isotropic).</font></small></p>		
+		  </td>
+               	  <td width="50%" style="vertical-align: middle">
+                    <a href="http://science.sciencemag.org/content/340/6139/1472" target="_blank"><img src="images/BigBrain_paper.png"></a>
+              	  </td>
+		</tr>
+	      </table>
+     	    </section>
+	    
+	    <!-- iEEG -->
+	    <section data-transition="convex">
+	      <h2>Open iEEG atlas</h2>  
+	      <a href="https://mni-open-ieegatlas.research.mcgill.ca" target="_blank"><img src="images/iEEG.png" width="150%"></a>
+	    </section>
+	  
+	  <!-- CONP Portal -->
+	  <section>
+	    <h2>CONP portal</h2>  
+	    <img src="images/CONP_Portal.png">
+	  </section>
+	  
+	  <!-- CONP Future datasets -->
+	  <section>  
+	      <img src="images/CONP_future.png">
+	    </section>
+	    
+	</section>
+	
+	<!-- Computational infrastructure -->
+	<section data-transition="fade">
+	    
+	  <section>		
+	    <h2>Computational infrastructure</h2>
+	    <img src="images/NIAK.jpg" width="82%">
+	    
+	  </section>
+	  
+	    
+	  <!-- Boutiques -->
+	  <section data-transition="slide" data-background-transition="zoom">
+	    <h2>Boutiques</h2>
+	      <table class="reveal">
+		<tr>
+              	  <td width="50%" style="vertical-align: top">
+                  <img src="images/Boutiques_paper.png">
+                  </td>
+                  <td width="50%" style="vertical-align: middle">
+                    <img src="images/Boutiques_paradigm.png">
+                  </td>
+		</tr>
+	      </table>
+            </section>
+	    
+	    
+	  <!-- CBRAIN overview-->
+	  <section data-transition="slide" data-background-transition="zoom">
+	    <h2>CBRAIN</h2>
+	    <table class="reveal">
+	      <tr>
+              	<td width="55%" style="vertical-align: top">
+                  <img src="images/CBRAIN_overview.png">
+                </td>
+                <td width="45%" style="vertical-align: middle">
+                  <img src="images/cbrain_uniview.png">
+                </td>
+	      </tr>
+	    </table>
+	  </section>
+	  
+	  <!-- DELL AI-->
+	  <section data-transition="slide" data-background-transition="zoom">
+            <img src="images/DELL_AI.png">
+	  </section>
+	  
+	</section>
+	
+	
+	<!-- THE PROCESS -->
+	<section data-transition="fade">
+	  
+	  <section data-background-transition="zoom">
+	      <h2>The Process</h2>
+	  </section>
+	  
+	  <!-- Ethics -->
+	  <section>
+	    <h2>Ethics</h2>
+	    <img src="images/Registered_access.png">
+	  </section>
+	  
+	  <!-- Curation -->
+	  <section data-background="images/LORIS_full_functionality.png" data-background-size="100%">			    <h2><font color="black">Curation</font></h2>
+	  </section>
+	  
+	  <!-- QC -->
+	  <section>
+	    <h2>Quality Control</h2>
+	    <table class="reveal">
+              <tr>
+              	<td width="50%" style="vertical-align: top">
+		  <img src="images/QC.png">
+                </td>
+                <td width="50%" style="vertical-align: middle">
+		  <img src="images/brain-background.png">
+                </td>
+              </tr>
+	    </table>
+	  </section>
+
+	  <!-- Interoperability -->
+	  <section data-background="images/api_background.jpg" data-background-size="100%">		
+	    <h2><font color="black">Interoperability</font></h2>
+	  </section>
+
+	  <!-- Datalad crawlers -->
+	  <section>
+	    <h2>Datalad crawler & extractor</h2>
+	     <img src="images/Datalad.png">
+	  </section>
+
+	  <!-- Open Science checklist -->
+	    <section>
+	    <a href="https://docs.google.com/document/d/1V53TE4snfhv_1xpk3FJYHTC1NdFYA6TPfkt6n308hqg/edit?ts=5c9a4351#" target="_blank"><img src="images/Open_science_checklist.png" style="border: 0"></a>
+	  </section>	  
+	</section>
+
+	  <!--Data publishing-->
+	  <section>
+	    <section>		
+	      <h2>Data publishing</h2>
+	      <img src="images/Publishing.png" width="85%">
+	    </section>
+	    
+	    <section>
+	      <h2>Neurolibre</h2>
+	      <img src="images/Neurolibre.png">
+	    </section>
+	  </section>
+	  
+	  <!--Acknowledgements-->
+          <section data-transition="slide" data-background="#87CEEB" data-background-transition="zoom">
+            <table class="reveal">
+              <tr>
+              	<td width="50%" style="vertical-align: top">
+                  <img src="images/Kitty.png">
+                </td>
+                <td width="50%" style="vertical-align: middle">
+                  <h4>Thank you!</h4>
+		  <p>Want to contribute data?<br><font color="blue" size="6">- Talk to Samir</font></p>
+		  <p>Do you have any criticisms?<br><font color="blue" size="6"> - Talk to JB</font></p>
+		  <p><font color="black" size="6"> Further discussions at Pub Lolec after posters</font></p>
+		  
+		  <p><small><font color="blue" size="4">Acknowledgements: </font><font color="black" size="2">Alan Evans, JB Poline, Shawn Brown, Cecile Madjar, Jennifer Mercier-Tremblay, Sanitago Paiva, Dave MacFarlane, Melanie Legault, Xavier Lecours-Boucher, Pierre Rioux, Tristan Glatard, Jason Karamchandani, Derek Lo, Pierre Bellec, Nikola Stikov, Simon Duchense, John Breitner, Judes Poirier, Sylvia Villneuve, Michael Hanke, Yaroslav Halchenko, the LORIS team, the CBRAIN team, PreventAD team, INCF, and many others...</font></small></p>
+		  
+		</td>
+	      </tr>
+	    </table>
+	  </section>	
+	  
+    </div>
+    
+    </div>
+    
+    <script src="lib/js/head.min.js"></script>
+    <script src="js/reveal.js"></script>
+    
+    <script>
+      
+      // Full list of configuration options available at:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+      controls: true,
+      progress: true,
+      history: true,
+      center: true,
+      
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
